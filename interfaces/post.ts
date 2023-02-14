@@ -1,7 +1,7 @@
 import type Author from './author';
 
 type PostType = {
-  number: string;
+  number: number;
   slug: string;
   title: string;
   date: string;

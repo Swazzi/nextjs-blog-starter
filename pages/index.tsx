@@ -17,11 +17,11 @@ const messageArray = [{number:1, message: 'Hi'},
 
 type Props = {
   allPosts: Post[],
-  randomNumber: string  
+  randomNumber: number  
 };
 
 export default function Index({allPosts, randomNumber}: Props) {
-  const message = messageArray[randomNumber].message;
+  const message = messageArray[randomNumber-1].message;
   return (
     <>
       <Layout>
