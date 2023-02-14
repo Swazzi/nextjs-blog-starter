@@ -45,15 +45,11 @@
         color: #003;
     }
 
-    .paginationActive {
-        @apply px-3 py-2 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white
-    }
-
     .paginationDeactive {
         @apply relative block py-1.5 px-3 rounded border-0 bg-transparent outline-none transition-all duration-300 rounded text-gray-800 hover:text-gray-800
     }
 
-    .paa{
+    .paginationBtnActive{
         width: 47px;
         height: 47px;
         margin: 6px 11px 12px 0;
@@ -66,7 +62,7 @@
         background-color: #fff;
     }
 
-    .pad{
+    .paginationBtnDeactive{
         width: 47px;
         height: 47px;
         margin: 6px 11px 12px 0;
