@@ -7,6 +7,7 @@ type PostType = {
   author: Author;
   excerpt: string;
   content: string;
+  cover_image: string;
 };
 
 export default PostType;

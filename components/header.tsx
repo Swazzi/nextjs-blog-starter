@@ -2,11 +2,18 @@ import Link from 'next/link';
 
 const Header = () => {
   return (
-    <h2 className="text-2xl md:text-4xl font-bold tracking-tight md:tracking-tighter leading-tight mb-20 mt-8">
-      <Link href="/" className="hover:underline">
-        NextJS Starter Blog
-      </Link>
-    </h2>
+    <div className="xl:container xl:mx-auto flex flex-col items-center sm:flex-row sm:justify-between text-center py-3">
+      <div>
+        <span className="Wild-Animals-TM xl:pl-20"><Link href="/">My Animals TM</Link></span>
+      </div>
+      <div className="w-96 order-3 flex justify-center pt-3">
+        <div className="flex gap-5">          
+          <span className="Home-Shop-Blog"><Link href="/">Home</Link></span>
+          <span className="Home-Shop-Blog">Shop</span>
+          <span className="Home-Shop-Blog">Blog</span>
+        </div>
+      </div>
+  </div>
   );
 };
 

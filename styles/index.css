@@ -1,3 +1,82 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+    .Blog {
+        font-family: Montserrat;
+        font-size: 28px;
+        font-weight: bold;
+        color: #003;
+    }
+
+    .HOME-BLOG {
+        font-family: Montserrat;
+        font-size: 16px;
+        text-align: right;
+        color: #707070;
+    }
+
+    .Home-Shop-Blog {
+        font-family: Montserrat;
+        font-size: 18px;
+        font-weight: 600;
+        color: #003;
+    }
+
+    .Index-page {
+        background-color: #f0f0f0;
+        font-family: Montserrat;
+    }
+
+    .Rectangle-1 {
+        background-color: #fff;
+    }
+
+    .Rectangle-2 {
+        border-radius: 7px;
+        box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.16);
+        background-color: #fff;
+    }
+
+    .Wild-Animals-TM {
+        font-family: Montserrat;
+        font-size: 33px;
+        font-weight: bold;
+        color: #003;
+    }
+
+    .paginationActive {
+        @apply px-3 py-2 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white
+    }
+
+    .paginationDeactive {
+        @apply relative block py-1.5 px-3 rounded border-0 bg-transparent outline-none transition-all duration-300 rounded text-gray-800 hover:text-gray-800
+    }
+
+    .paa{
+        width: 47px;
+        height: 47px;
+        margin: 6px 11px 12px 0;
+        padding: 12px 19px 11px 20px;
+        border-radius: 3px;
+        box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+        background-color: #003;
+    }
+    .paa:hover{
+        background-color: #fff;
+    }
+
+    .pad{
+        width: 47px;
+        height: 47px;
+        margin: 6px 11px 12px 0;
+        padding: 12px 19px 11px 20px;
+        border-radius: 3px;
+        box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+        background-color: #fff;
+    }
+
+    .pad:hover {
+        background-color: #003;
+    }
+
