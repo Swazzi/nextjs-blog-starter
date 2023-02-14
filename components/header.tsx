@@ -2,9 +2,9 @@ import Link from 'next/link';
 
 const Header = () => {
   return (
-    <div className="xl:container xl:mx-auto flex flex-col items-center sm:flex-row sm:justify-between text-center py-3">
+    <div className="container mx-auto flex flex-col items-center sm:flex-row sm:justify-between text-center py-3">
       <div>
-        <span className="Wild-Animals-TM xl:pl-20"><Link href="/">My Animals TM</Link></span>
+        <span className="Wild-Animals-TM xl:px-20"><Link href="/">My Animals TM</Link></span>
       </div>
       <div className="w-96 order-3 flex justify-center pt-3">
         <div className="flex gap-5">          
